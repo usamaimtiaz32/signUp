@@ -52,7 +52,7 @@ public class Activity2 extends AppCompatActivity {
 
     public void Call(View view)
     {
-        Uri uri = Uri.parse("tel:+923354181927");
+        Uri uri = Uri.parse("tel:+923214663901");
         Intent intent = new Intent (Intent.ACTION_DIAL, uri);
         startActivity(intent);
 
@@ -60,7 +60,7 @@ public class Activity2 extends AppCompatActivity {
 
     public void Github(View view)
     {
-        Uri uri = Uri.parse("https://github.com/Saad-Ishtiaq");
+        Uri uri = Uri.parse("https://github.com/usamaimtiaz32?tab=repositories");
         Intent intent = new Intent (Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
